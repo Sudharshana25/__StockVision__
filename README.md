@@ -48,3 +48,12 @@ cd __StockVision__/dashboard
 pip install -r ../requirements.txt
 streamlit run app.py
 
+## Future Plans
+ User login & watchlists
+ Portfolio tracker
+ Custom ML model training
+ Mobile UI optimization
+
+Author
+Sudharshana J
+GitHub: @Sudharshana25
