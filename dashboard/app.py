@@ -1,5 +1,11 @@
 import streamlit as st
+import pandas as pd
+
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from stock_data import get_stock_data
+
 import matplotlib.pyplot as plt
 
 st.title("📈 StockVision - Real-time Stock Dashboard")
