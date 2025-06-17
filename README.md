@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend**: Streamlit
 - **Backend**: Python (Pandas, NumPy, Scikit-learn, Keras, statsmodels)
