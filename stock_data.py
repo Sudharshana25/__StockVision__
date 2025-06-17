@@ -17,6 +17,12 @@ def add_rsi(df, period=14):
     rs = gain / loss
     df['RSI'] = 100 - (100 / (1 + rs))
     return df
+def add_macd(df, fast=12, slow=26, signal=9):
+    df['EMA_fast'] = df['Close'].ewm(span=fast, adjust=False).mean()
+    df['EMA_slow'] = df['Close'].ewm(span=slow, adjust=False).mean()
+    df['MACD'] = df['EMA_fast'] - df['EMA_slow']
+    df['Signal_Line'] = df['MACD'].ewm(span=signal, adjust=False).mean()
+    return df
 
 # Example usage
 if __name__ == "__main__":
