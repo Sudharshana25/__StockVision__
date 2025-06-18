@@ -23,19 +23,6 @@
 - **Modeling**: LSTM, ARIMA, Linear Regression
 - **Deployment**: Streamlit Cloud
 
----
-
-##  Project Structure
-StockVision/
-├── dashboard/
-│ └── app.py # Streamlit app entry point
-├── models/
-│ ├── lstm_model.pkl
-│ └── linear_model.pkl
-├── data/
-│ └── sample_data.csv
-├── requirements.txt
-└── README.md
 
 
 ---
