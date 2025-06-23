@@ -38,10 +38,10 @@ streamlit run app.py
 ---
 
 ## Future Plans
- -User login & watchlists
- -Portfolio tracker
- -Custom ML model training
- -Mobile UI optimization
+- User login & watchlists
+- Portfolio tracker
+- Custom ML model training
+- Mobile UI optimization
 
 ---
 Deployed App : https://stockvisiongit-hv9uqtcz6osvjafycg4otp.streamlit.app/
