@@ -47,6 +47,7 @@ streamlit run app.py
 Deployed App : https://stockvisiongit-hv9uqtcz6osvjafycg4otp.streamlit.app/
 
 ---
-Author
+## Author
 Sudharshana J
+
 GitHub: @Sudharshana25
