@@ -34,6 +34,8 @@ git clone https://github.com/Sudharshana25/__StockVision__.git
 cd __StockVision__/dashboard
 pip install -r ../requirements.txt
 streamlit run app.py
+```
+---
 
 ## Future Plans
  User login & watchlists
@@ -41,6 +43,10 @@ streamlit run app.py
  Custom ML model training
  Mobile UI optimization
 
+---
+Deployed App : https://stockvisiongit-hv9uqtcz6osvjafycg4otp.streamlit.app/
+
+---
 Author
 Sudharshana J
 GitHub: @Sudharshana25
